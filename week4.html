@@ -1,0 +1,138 @@
+<html>
+    <link rel="stylesheet" href="week4.css">
+    <div class="section1">
+        <a href="topics.html">‹Back</a>
+        <div class="text"><h1>Big Data</h1></div>
+    </div>
+    <div class="section2">
+        <p><h3 style="color: rgb(205, 228, 228);">DEFINITION:</h3> 
+            The quantities, characters, or symbols on which operations are performed by a computer, which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media.<br>
+            <br><h3  style="color: rgb(205, 228, 228);">CHARACTERISTIC OF BIG DATA</h3>
+            <ul>
+                <li>Volume: the size and amounts of big data that companies manage and analyze.</li><br>
+                <li>Value: the most important “V” from the perspective of the business, the value of big data
+                    usually comes from insight discovery and pattern recognition that lead to more effective
+                    operations, stronger customer relationships and other clear and quantifiable business
+                    benefits</li><br>
+                <li>Variety: the diversity and range of different data types, including unstructured data,semi-structured data and raw data</li><br>
+                <li>Velocity: the speed at which companies receive, store and manage data – e.g., the specific
+                    number of social media posts or search queries received within a day, hour or other unit of
+                    time</li><br>
+                <li>Veracity: the “truth” or accuracy of data and information assets, which often determines executive-level confidence  </li><br>
+                <li>Variability: the changing nature of the data companies seek to capture, manage and analyze </li><br>
+            </ul>
+            </p>
+        
+        
+        <p>
+            <h3 style="color: aliceblue;">TYPES OF BIG DATA</h3>
+            <h3>Structered</h3>
+            Structured is one of the types of big data. We mean data that can be
+            processed, stored, and retrieved in a fixed format. It refers to highly organized information
+            that can be readily and seamlessly stored and accessed from a database by simple search
+            engine algorithms. <br>
+
+            <h3>UnStructered</h3>
+
+            UnStructured is one of the types of big data. We mean data that can be processed, stored, and retrieved in a fixed format. It refers to highly unorganized information that can be readily and seamlessly stored and accessed from a database. This makes it very difficult and time-consuming to process and analyze unstructured data. <br>
+
+            <h3>Semi-Structered</h3>
+
+            Semi Structured is the third type of big data. Semi-structured data pertains to the data containing both the formats mentioned above, that is, structured and unstructured data. <br>
+        </p>
+        <div class="section3">
+            <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bAyrObl7TYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_a6us8kaq0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="slide">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aReuLtY0YMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class = "navigation-auto">
+                    <div class = "auto-btn1"></div>
+                    <div class = "auto-btn2"></div>
+                    <div class = "auto-btn3"></div>
+                </div>
+
+            </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>           
+            </div>
+
+            <script type="text/javascript">
+                var counter = 2;
+                setInterval(function(){
+                    document.getElementById('radio'+counter).checked = true;
+                    counter++;
+                    if(counter > 4){
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+    </div>
+</div>
+<div class="section4">
+    <div class="text" style="top: 120em;"><h1>Cluster Computing</h1></div>
+</div>
+<div class="section5">
+    <p><h3 style="color: rgb(205, 228, 228);">DEFINITION:</h3> 
+        Cluster computing defines several computers linked on a network and implemented like an individual entity. Cluster computing provides solutions to solve difficult problems by providing faster computational speed, and enhanced data integrity.<br>
+        <br><h3  style="color: rgb(205, 228, 228);">ADVANTAGES OD CLUSTER COMPUTING</h3>
+        <ol>
+            <li>High Performance: The systems offer better and enhanced performance than that of mainframe computer networks.</li>
+            <li>Easy to manage: Cluster Computing is manageable and easy to implement.</li>
+            <li>Scalable: Resources can be added to the clusters accordingly.</li>
+            <li>Expandability: Computer clusters can be expanded easily by adding additional computers to the network. Cluster computing is capable of combining several additional resources or the networks to the existing computer system.</li>
+            <li>Availability: The other nodes will be active when one node gets failed and will function as a proxy for the failed node. This makes sure for enhanced availability.</li>
+            <li>Flexibility: It can be upgraded to the superior specification or additional nodes can be added.</li>
+        </ol>
+        </p>
+    <p>
+        <h3 style="color: aliceblue;">DISADVANTAGES OF CLUSTER COMPUTING</h3>
+        <ol>
+            <li>High cost: It is not so much cost-effective due to its high hardware and its design.</li>
+            <li>Problem in finding fault: It is difficult to find which component has a fault.</li>
+            <li>More space is needed: Infrastructure may increase as more servers are needed to manage and monitor.</li>
+        </ol>
+    </p>
+</div>
+<div class="section6">
+    <div class="text" style="top: 190em; color: #222;"><h1>Hadoop Ecosystem</h1></div>
+</div>
+<div class="section7">
+    <p><h3 style="color: rgb(205, 228, 228);">DEFINITION:</h3> 
+        Hadoop Ecosystem is neither a programming language nor a service, it is a platform or framework which solves big data problems. You can consider it as a suite which encompasses a number of services (ingesting, storing, analyzing and maintaining) inside it.<br>
+        <br><h3  style="color: rgb(205, 228, 228);">MapReduce</h3>
+        MapReduce is a programming paradigm that enables massive scalability across hundreds or thousands of servers in a Hadoop cluster. As the processing component, MapReduce is the heart of Apache Hadoop. The term "MapReduce" refers to two separate and distinct tasks that Hadoop programs perform. <br>
+        </p>
+    <p>
+        <h3 style="color: aliceblue;">YARN</h3>
+        One of Apache Hadoop's core components, YARN is responsible for allocating system resources to the various applications running in a Hadoop cluster and scheduling tasks to be executed on different cluster nodes.
+    </p>
+    <p>
+        <h3 style="color: aliceblue;">PIG</h3>
+        Pig Hadoop is basically a high-level programming language that is helpful for the analysis of huge datasets. Pig Hadoop was developed by Yahoo! and is generally used with Hadoop to perform a lot of data administration operations.
+    </p>
+    <p>
+        <h3 style="color: aliceblue;">SQOOP</h3>
+        Sqoop is a tool used to transfer bulk data between Hadoop and external datastores, such as relational databases (MS SQL Server, MySQL). To process data using Hadoop, the data first needs to be loaded into Hadoop clusters from several sources.
+    </p>
+    <p>
+        <h3 style="color: aliceblue;">HIVE</h3>
+        Hive is built on top of Apache Hadoop, which is an open-source framework used to efficiently store and process large datasets. As a result, Hive is closely integrated with Hadoop, and is designed to work quickly on petabytes of data.
+    </p>
+</div>
+
+</html>

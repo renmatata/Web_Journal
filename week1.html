@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="week1.css">
+</head>
+<body> 
+    <div class="section1">
+        <a href="topics.html">‹Back</a>
+        <div class="text"><h1>Artificial Intellegence</h1></div>
+    </div>
+    <div class="section2">
+        <div class="text"></div><p><h3 style="color: rgb(205, 228, 228);">DEFINITION:</h3> AI stands for "artificial intelligence." The simulation of human intelligence process by machines,especially computer systems. <br>
+            <br><h3  style="color: rgb(205, 228, 228);">WHAT COMPRISES AN AI?</h3>
+            <br>AI comprises various subfields, technologies, and techniques, including: <br>
+            <br>1. Machine learning: a subset of AI that involves training algorithms to learn patterns and make
+            predictions or decisions based on data. <br>
+            <br>2. Deep learning: a subset of machine learning that uses neural networks to learn hierarchical
+            representations of data.<br>
+            <br>3. Natural language processing: a branch of AI that deals with the interaction between
+            computers and humans using natural language.<br>
+            <br>4. Robotics: the use of AI to control and program robots to perform specific tasks.<br>
+            <br>5. Computer vision: a field of AI that deals with enabling machines to interpret and analyze
+            image or videos.<br>
+            <br>6. Expert systems: AI systems that mimic the decision-making ability of a human expert in a
+            specific domain.<br>
+            <br>7. Cognitive computing: a type of AI that aims to simulate human thought processes and
+            decision-making.<br>
+            <br>8. Reinforcement learning: a type of machine learning that involves an agent learning to make
+            decisions through trial and error and receiving feedback in the form of rewards or penalties.<br>
+            <br>9. Genetic algorithms: a type of AI that mimics the process of natural selection to optimize
+            solutions to problems.<br></p>
+        <div class="section3">
+            <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="img/car.jpg" alt="Self-driving car">
+                </div>
+                <div class="slide">
+                    <img src="img/chatgpt.jpg" alt="Chatbot">
+                </div>
+                <div class="slide">
+                    <img src="img/sophia.jpg" alt="Humanoid robot">
+                </div>
+                <div class="slide">
+                    <img src="img/golden.jpg" alt="pulihanan">
+                </div>
+                <div class = "navigation-auto">
+                    <div class = "auto-btn1"></div>
+                    <div class = "auto-btn2"></div>
+                    <div class = "auto-btn3"></div>
+                    <div class = "auto-btn4"></div>
+                </div>
+
+            </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>           
+            </div>
+
+            <script type="text/javascript">
+                var counter = 2;
+                setInterval(function(){
+                    document.getElementById('radio'+counter).checked = true;
+                    counter++;
+                    if(counter > 4){
+                        counter = 1;
+                    }
+                }, 3000);
+            </script>
+        </div>
+        <p>
+            <h3>LEVELS OF AI</h3>
+            <h4>Artificial Narrow Intelligence (ANI)</h4>
+            <p>- the stage of Artificial Intelligence involving machines that can perform only a narrowly defined set of specific tasks. The machine does not possess any thinking ability, it just performs a set of pre-defined functions.</p>
+            <h4>Artificial General Intelligence (AGI)</h4>
+            <p>- The stage in the evolution of Artificial Intelligence wherein machines will possess the ability to think and make decisions just like us humans.</p>
+            <h4>Artificial Super Intelligence (ASI)</h4>
+            <p>- The stage of Artificial Intelligence when the capability of computers will surpass human 
+            intelligence and can perform any task better than humans with cognitive properties.</p>
+        </p>      
+</body>
+</html>

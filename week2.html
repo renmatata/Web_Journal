@@ -1,0 +1,145 @@
+<html>
+    <link rel="stylesheet" href="week2.css">
+    <div class="section1">
+        <a href="topics.html">‹Back</a>
+        <div class="text"><h1>Internet of Things</h1></div>
+    </div>
+    <div class="section2">
+        <div class="text"></div><p><h3 style="color: rgb(205, 228, 228);">DEFINITION:</h3> Internet of things is the network of physical objects or "things" embedded with electronics, software, sensors, and network connectivity, which enables this objects to collect and exchange data. <br>
+            <br><h3  style="color: rgb(205, 228, 228);">ADVANTAGES OF IOT</h3>
+            <h4>Real-Time Access to Information</h4>
+            - One of the primary internet of things advantages is the uninterrupted flow of
+            information. Internet-connected devices can share data at the speed of light,
+            which means fewer delays and a lower potential for miscommunication. 
+
+            <h4>Emerging Businesses</h4>
+             - The rise of new technology always brings an explosion of new business
+            opportunities, and IoT is no different. Although smart devices have long
+            penetrated almost every aspect of society, we are still years, or perhaps
+            decades away from widespread global use.
+
+            <h4>Advanced Data Collection</h4>
+            - The Internet of things provides excellent opportunities for data collection
+            and business growth. Deployed across a wide range of devices, the internet of
+            things advantages of data collection can help business owners make decisions
+            on a macro scale as well as a granular level. <br>
+
+            <h4>Improved Efficiency</h4>
+            - By its very definition, the Internet of Things operates without human
+            intervention. It is a system relying solely on machine-to-machine
+            communication, with data logged and collected in real-time, at any time of
+            day or night. One of the most significant impacts of such a system is the
+            increased efficiency of a wide range of services. <br>
+
+            <h4>Higher Productivity</h4>
+            - The Internet of Things can also improve efficiency and productivity at work
+            and in the industrial sector, similar to how voice-activated Amazon and Google
+            products increase efficiency at home. <br>
+
+            <h4>Improved Quality of Life</h4>
+             - Improved quality of life from IoT networks doesn’t only apply to individuals.
+            Smart devices could benefit entire communities, with internet-connected
+            traffic sensors and lights easing congestion in heavily populated areas, for
+            example. <br>
+
+            <h4>Health and Safety</h4>
+             - Technological and medical advances have enabled more humans to reach old
+            age, but these boundaries are being pushed further every year. In a medical
+            emergency, every second could mean the difference between life and death,
+            and the highly interconnected world of IoT could bring about a plethora of
+            benefits. <br></p>
+        <div class="section3">
+            <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="img/iot1.jpg" alt="Self-driving car">
+                </div>
+                <div class="slide">
+                    <img src="img/iot2.jpg" alt="Chatbot">
+                </div>
+                <div class="slide">
+                    <img src="img/iot3.jpg" alt="Humanoid robot">
+                </div>
+                <div class="slide">
+                    <img src="img/iot5.png" alt="pulihanan">
+                </div>
+                <div class = "navigation-auto">
+                    <div class = "auto-btn1"></div>
+                    <div class = "auto-btn2"></div>
+                    <div class = "auto-btn3"></div>
+                    <div class = "auto-btn4"></div>
+                </div>
+
+            </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>           
+            </div>
+
+            <script type="text/javascript">
+                var counter = 2;
+                setInterval(function(){
+                    document.getElementById('radio'+counter).checked = true;
+                    counter++;
+                    if(counter > 4){
+                        counter = 1;
+                    }
+                }, 3000);
+            </script>
+        </div>
+        <p>
+            <h3 style="color: aliceblue;">DISADVANTAGES OF IOT</h3>
+            <h3>High Internet Dependency</h3>
+
+            — IoT systems cannot function without the internet, so it is impossible to have
+            a reliable IoT ecosystem without a stable internet connection. <br>
+
+            <h3>No International Standardization</h3>
+
+            — As IoT compatibility is not standardized internationally, devices produced by
+            different manufacturers could have trouble communicating with one another
+            most effectively. <br>
+
+            <h3>Chance of System-Wide Corruption</h3>
+
+            — A single bug or malware attack could potentially bring down the entire
+            system. <br>
+
+            <h3>Relative Complexity</h3>
+            — Design, development, implementation, and maintenance of an extensive
+            IoT ecosystem is a relatively complex endeavor. <br>
+
+            <h3>Potential for Increased Unemployment Rates</h3>
+            — Workers in specific fields could run a higher risk of being replaced by AI.
+            Production line robots, smart surveillance systems, self-driving vehicles, and
+            other machines will replace humans in these positions. <br>
+
+            <h3>Privacy and Security</h3>
+            — If not operated carefully, an IoT system could provide critical data to third
+            parties. Also, since IoT systems are interconnected through various networks,
+            there’s a real risk of network attacks if the highest security measures are not
+            employed. <br>
+            <h3>Reduced Mental and Physical Activity</h3>
+            — It can make people ignorant because they solely rely on smart
+            devices instead of doing the work by themselves, this cause them to
+            become inactive and lethargic. <br>
+        </p>
+        <p>
+            <h3 style="color: aliceblue;">HOW DOES IOT WORKS?</h3>
+            An IoT ecosystem consists of web-enabled smart devices that
+            use embedded processors, sensors and communication hardware
+            to collect, send and act on data they acquire from their
+            environments. IoT devices share the sensor data they collect by
+            connecting to an IoT gateway or another edge device where data is
+            either sent to the cloud to be analyzed or analyzed locally. <br>
+        </p>
+    </div>
+</html>

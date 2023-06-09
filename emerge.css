@@ -1,0 +1,20 @@
+body{
+    background-image: url("img/emerge.jpg");
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+    color: #222;
+    font-size: large;
+}
+blockquote{
+    color: #222;
+}
+.section1{
+    display: flex;
+    border: solid;
+    border-radius: 20px;
+    border-color: aliceblue;
+    background-color: cadetblue;
+}
